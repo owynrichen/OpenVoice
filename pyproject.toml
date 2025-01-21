@@ -28,7 +28,7 @@ gruut = "^2.4.0"
 torch = {version = "^2.5.1", extras = ["cuda"]}
 torchaudio = {version = "^2.5.1", extras = ["cuda"]}
 xformers = {version = "^0.0.29.post1", extras = ["cuda"]}
-melotts = melotts = { git = "https://github.com/owynrichen/MeloTTS", branch = "bugfix/update_gruut_2.4" }
+melotts = { git = "https://github.com/owynrichen/MeloTTS", branch = "bugfix/update_gruut_2.4" }
 nltk = "^3.9.1"
 
 [tool.poetry.group.cuda]
